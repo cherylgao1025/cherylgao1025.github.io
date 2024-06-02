@@ -14,6 +14,14 @@
 					<a href="#" class="image avatar"><img src="images/shiba.jpg" alt="" /></a>
 					<h1><strong>Cheryl Gao</strong><br />
 					Android Developer</h1>
+
+					<div class="social-icons">
+						<a href="https://www.linkedin.com/in/cheryl-gao-42488b131/" target="_blank" class="icon brands fa-linkedin" title="LinkedIn"></a>
+						<a href="https://github.com/cherylgao1025" target="_blank" class="icon brands fa-github" title="GitHub"></a>
+						<a href="https://www.facebook.com/kao.cheryl.1/" target="_blank" class="icon brands fa-facebook" title="Facebook"></a>
+						<a href="https://www.instagram.com/kaocheryl/" target="_blank" class="icon brands fa-instagram" title="Instagram"></a>
+					</div>
+
 				</div>
 			</header>
 
@@ -160,47 +168,37 @@
 					</section>
 
 				<!-- Contact -->
-				<section id="contact">
-					<h2>Get In Touch</h2>
-						<div class="col-4 col-12-small">
-							<ul class="labeled-icons">
-								<li>
-									<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-									cherylgao@gmail.com
-								</li>
-								<li>
-									<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-									+61 457 429 829
-
-
-
-
-
-<!-- Video Popup -->
-<div id="video-popup" style="display:none;">
-	<div class="inner">
-		<iframe width="560" height="315" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				<!-- Contact -->
+<section id="contact">
+	<h2>Get In Touch</h2>
+	<div class="row">
+		<div class="col-4 col-12-small">
+			<ul class="labeled-icons">
+				<li>
+					<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+					<a href="mailto:cherylgao@gmail.com">cherylgao@gmail.com</a>
+				</li>
+				<li>
+					<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+					+61 457 429 829
+				</li>
+				<li>
+					<h3 class="icon brands fa-linkedin"><span class="label">LinkedIn</span></h3>
+					<a href="https://www.linkedin.com/in/cherylgao" target="_blank">LinkedIn</a>
+				</li>
+				<li>
+					<h3 class="icon brands fa-github"><span class="label">GitHub</span></h3>
+					<a href="https://github.com/cherylgao" target="_blank">GitHub</a>
+				</li>
+				<li>
+					<h3 class="icon brands fa-facebook"><span class="label">Facebook</span></h3>
+					<a href="https://www.facebook.com/cherylgao" target="_blank">Facebook</a>
+				</li>
+				<li>
+					<h3 class="icon brands fa-instagram"><span class="label">Instagram</span></h3>
+					<a href="https://www.instagram.com/cherylgao" target="_blank">Instagram</a>
+				</li>
+			</ul>
+		</div>
 	</div>
-</div>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-	const videoLinks = document.querySelectorAll('a[data-video]');
-	const videoPopup = document.getElementById('video-popup');
-	const iframe = videoPopup.querySelector('iframe');
-	
-	videoLinks.forEach(link => {
-		link.addEventListener('click', function(event) {
-			event.preventDefault();
-			const videoSrc = link.getAttribute('data-video');
-			iframe.setAttribute('src', videoSrc);
-			videoPopup.style.display = 'block';
-		});
-	});
-	
-	videoPopup.addEventListener('click', function() {
-		videoPopup.style.display = 'none';
-		iframe.setAttribute('src', '');
-	});
-});
-</script>
+</section>
